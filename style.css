@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'SF-Pro';
+  src: url('./fonts/SF-Pro.ttf') format("truetype");
+}
+
+body {
+  background-color: #262626;
+  font-size: 45pt;
+  color: aliceblue;
+  font-family: 'SF-Pro';
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.clock {
+  text-align: center;
+  margin-top: 50%;
+}
+
+#split {
+  font-size: 20pt;
+}
+
+.date {
+  font-size: 10pt;
+  text-align: center;
+  margin-top: 0%;
+}
+
+.navbar {
+  font-size: 20pt;
+  width: 100%;
+  height: 7%;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  padding-bottom: 3%;
+  border-bottom: 1px solid aliceblue;
+}
+
+.navbar a {
+  float: left;
+  margin-top: 3%;
+}
+
+#time {
+  margin-left: 15%;
+}
+
+#counter {
+  margin-left: 25%;
+}
+
+#countdown {
+  margin-left: 25%;
+}
